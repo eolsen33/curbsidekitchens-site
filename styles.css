@@ -142,6 +142,7 @@ nav.site a:hover, nav.site a:focus-visible { color: #fff; text-decoration: under
   border: 1px solid var(--line);
   border-radius: 16px;
   padding: 13px;
+  color: var(--ink); /* don't inherit the hero's cream text */
 }
 .drop-card .photos { display: flex; gap: 6px; margin-bottom: 10px; }
 .drop-card .photos span {
@@ -161,6 +162,7 @@ nav.site a:hover, nav.site a:focus-visible { color: #fff; text-decoration: under
 
 /* --- sections --- */
 section.band { padding: clamp(2.8rem, 6vw, 4.6rem) clamp(1.2rem, 5vw, 3.4rem); }
+section.band a { color: var(--terracotta-dark); font-weight: 600; }
 section.band .inner { max-width: 1060px; margin-inline: auto; }
 section.band h2 {
   font-family: "Bricolage Grotesque", sans-serif;
